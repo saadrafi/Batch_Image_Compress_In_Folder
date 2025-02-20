@@ -23,19 +23,19 @@ To run this script, you need to have Python installed on your computer. The proj
 1. **Clone the Repository**: First, clone this repository to your local machine.
 
     ```bash
-    git clone https://github.com/your-repository/image-compressor.git
-    cd image-compressor
+    git clone https://github.com/saadrafi/Batch_Image_Compress_In_Folder.git
+    cd Batch_Image_Compress_In_Folder
     ```
 
 2. **Set Up the Virtual Environment**:
    - If you want to use the provided virtual environment, activate it:
      - On **Windows**:
        ```bash
-       .\venv\Scripts\activate
+       .\imagecompressenv\Scripts\activate
        ```
      - On **macOS/Linux**:
        ```bash
-       source venv/bin/activate
+       source imagecompressenv\bin\activate
        ```
    - If you prefer to install the dependencies manually, skip this step and proceed to the next one.
 
@@ -48,7 +48,7 @@ To run this script, you need to have Python installed on your computer. The proj
 4. **Run the Script**: Execute the script using Python.
 
     ```bash
-    python script.py
+    python compress_images_of_folder.py
     ```
 
 5. **Enter the Folder Path**: When prompted, enter the path to the folder containing the images you want to compress.
@@ -82,19 +82,19 @@ To run this script on a different computer, follow these steps:
 2. **Clone the Repository**: Clone the repository to the new computer.
 
     ```bash
-    git clone https://github.com/your-repository/image-compressor.git
-    cd image-compressor
+    git clone https://github.com/saadrafi/Batch_Image_Compress_In_Folder.git
+    cd Batch_Image_Compress_In_Folder
     ```
 
 3. **Set Up the Virtual Environment**:
    - If you want to use the provided virtual environment, activate it:
      - On **Windows**:
        ```bash
-       .\venv\Scripts\activate
+       .\imagecompressenv\Scripts\activate
        ```
      - On **macOS/Linux**:
        ```bash
-       source venv/bin/activate
+       source imagecompressenv\bin\activate
        ```
    - If you prefer to install the dependencies manually, skip this step and proceed to the next one.
 
@@ -107,7 +107,7 @@ To run this script on a different computer, follow these steps:
 5. **Run the Script**: Execute the script using Python.
 
     ```bash
-    python script.py
+    python compress_images_of_folder.py
     ```
 
 6. **Enter the Folder Path**: When prompted, enter the path to the folder containing the images you want to compress.
@@ -142,10 +142,6 @@ Compressed image2.jpg and saved to compressed_images/image2.webp
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request. We welcome any contributions, whether they are bug fixes, new features, or improvements to the documentation.
@@ -156,4 +152,4 @@ If you encounter any issues or have any questions, please open an issue on the G
 
 ---
 
-Enjoy using the Image Compressor! If you find it useful, consider giving it a star on GitHub.
+Enjoy using the Image Compressor! If you find it useful,  consider giving it a ⭐ on GitHub.
